@@ -8,4 +8,13 @@ import java.io.File;
 public class Ayah {
     private String content;
     private File audioFile;
+    private int ayahAbsolutePosition;
+
+    public int getAyahAbsolutePosition() {
+        return ayahAbsolutePosition;
+    }
+
+    public void setAyahAbsolutePosition(int ayahAbsolutePosition) {
+        this.ayahAbsolutePosition = ayahAbsolutePosition;
+    }
 }
